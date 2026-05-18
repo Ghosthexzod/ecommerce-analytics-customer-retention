@@ -155,12 +155,9 @@ ecommerce-analytics-customer-retention/
 │
 ├── README.md
 ├── business_insights.md
-├── project_structure.md
-├── powerbi/
-│   └── Ecommerce_Dashboard.pbix
-├── reports/
-│   └── Ecommerce Analytics Case Study Portfolio Paper.docx
-└── images/
+├── Ecommerce_Dashboard.pbix
+├── Ecommerce Analytics Case Study Portfolio Paper.docx
+ └── images/
     ├── ExecDash.png
     ├── ChurnPredAnalysis.png
     └── SalesPred.png
