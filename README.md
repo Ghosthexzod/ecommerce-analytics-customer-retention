@@ -18,6 +18,7 @@ Jupyter Notebook
 Power BI
 GitHub
 Dataset
+
 The dataset contains around 5,000 ecommerce transaction records.
 Main fields used:
 order_id
@@ -32,6 +33,7 @@ payment_method
 delivery_days
 customer_rating
 revenue
+
 Project Workflow
 1. Excel Data Cleaning
 Excel was used to clean and prepare the raw dataset before analysis.
@@ -44,6 +46,7 @@ checked missing values
 validated revenue calculations
 prepared the file for SQL import
 This step was important because clean data gives more reliable analysis and dashboard results.
+
 2. SQL Server Analysis
 The cleaned data was imported into SQL Server.
 SQL was used to:
@@ -54,6 +57,7 @@ analyse customer ratings and delivery performance
 create SQL views for Power BI
 practise joins, aggregations, window functions, CTEs, and rolling averages
 This helped create a stronger reporting layer before building the dashboard.
+
 3. Power BI Dashboard
 Power BI was used to create interactive dashboards for business users.
 The dashboard includes:
@@ -68,6 +72,7 @@ delivery performance
 customer churn risk
 feature importance from the churn model
 Slicers were added so users can filter results by region, product category, and payment method.
+
 4. Python and Machine Learning
 Python and Jupyter Notebook were used for advanced analytics.
 The Python work included:
@@ -77,6 +82,7 @@ churn prediction
 ROC/AUC model evaluation
 feature importance analysis
 A churn prediction model was built to identify customers who may stop purchasing. This gives the business a way to target high-risk customers before they leave.
+
 Key Business Insights
 1. West region performed best
 The West region generated the highest total revenue. This suggests stronger customer demand and better sales activity in that region.
@@ -90,6 +96,7 @@ Customers with more orders were more likely to be high-value customers. This mea
 Customers with lower ratings and weaker engagement were more likely to become high churn-risk customers.
 6. Discounts alone were not enough
 Discounts had less impact on customer retention compared with order frequency, customer ratings, and delivery performance.
+
 Business Recommendations
 Based on the analysis, the business should:
 focus marketing efforts on high-performing regions such as West
@@ -98,13 +105,12 @@ improve delivery performance to protect customer satisfaction
 build loyalty programs for repeat customers
 target high-risk customers with retention campaigns
 monitor churn risk regularly using Power BI dashboards
+
 Dashboard Preview
-Add your dashboard screenshots here:
-![Executive Dashboard](images/executive_dashboard.png)
-
-![Churn Dashboard](images/churn_dashboard.png)
-
-![Revenue Dashboard](images/revenue_dashboard.png)
+![Executive Dashboard](ExecDash.png)
+![Sales Forecast Dashboard](salesPred.png)
+![Churn Prediction Dashboard](ChurnPredAnalysis.png)
+![High Value Customer Dashboard](HighValueCustomerPred.png)
 
 Business Impact
 This project shows how data can help an ecommerce business:
@@ -115,6 +121,7 @@ reduce churn risk
 improve delivery operations
 support better marketing decisions
 turn raw data into clear business insights
+
 Skills Demonstrated
 Excel
 Data cleaning
@@ -142,6 +149,7 @@ Random Forest modelling
 Churn prediction
 ROC/AUC evaluation
 Feature importance analysis
+
 Project Files
 ecommerce-analytics-customer-retention/
 │
@@ -153,9 +161,9 @@ ecommerce-analytics-customer-retention/
 ├── reports/
 │   └── Ecommerce Analytics Case Study Portfolio Paper.docx
 └── images/
-    ├── executive_dashboard.png
-    ├── churn_dashboard.png
-    └── revenue_dashboard.png
+    ├── ExecDash.png
+    ├── ChurnPredAnalysis.png
+    └── SalesPred.png
 Final Summary
 This project demonstrates a complete analytics workflow from data cleaning to business reporting and predictive modelling.
 It combines Excel, SQL, Python, and Power BI to solve a realistic ecommerce business problem and provide clear recommendations for improving sales, customer experience, and retention.
